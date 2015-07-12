@@ -71,7 +71,7 @@ namespace Eclipse_Tech_Dashboard
             trayMenu.MenuItems.Add(Btn2.Text, Btn2_Click);
             trayMenu.MenuItems.Add(Btn3.Text, Btn3_Click);
             trayMenu.MenuItems.Add(Btn4.Text, Btn4_Click);
-            trayMenu.MenuItems.Add(Btn3.Text, Btn3_Click);
+            trayMenu.MenuItems.Add(Btn5.Text, Btn5_Click);
 
             trayMenu.MenuItems.Add("-");
             trayMenu.MenuItems.Add("Show App", ShowApp);
@@ -83,7 +83,6 @@ namespace Eclipse_Tech_Dashboard
 
             trayIcon.ContextMenu = trayMenu;
             trayIcon.Visible = true;
-
 
         }
 
@@ -234,6 +233,13 @@ namespace Eclipse_Tech_Dashboard
         private void Btn5_Click(object sender, EventArgs e)
         {
             StartFile(Btn5Path);
+        }
+
+        private void Dipose_Icon(object sender, FormClosingEventArgs e)
+        {
+            trayIcon.Visible = false;
+            trayIcon.Dispose();
+            trayMenu.Dispose();
         }
 
     }

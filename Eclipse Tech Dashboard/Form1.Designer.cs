@@ -57,7 +57,7 @@
             // 
             // HideInTrayButton
             // 
-            this.HideInTrayButton.Location = new System.Drawing.Point(57, 259);
+            this.HideInTrayButton.Location = new System.Drawing.Point(57, 176);
             this.HideInTrayButton.Name = "HideInTrayButton";
             this.HideInTrayButton.Size = new System.Drawing.Size(85, 38);
             this.HideInTrayButton.TabIndex = 5;
@@ -77,7 +77,7 @@
             // 
             // exitBtn
             // 
-            this.exitBtn.Location = new System.Drawing.Point(148, 259);
+            this.exitBtn.Location = new System.Drawing.Point(148, 176);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.Size = new System.Drawing.Size(85, 38);
             this.exitBtn.TabIndex = 11;
@@ -240,7 +240,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(283, 309);
+            this.ClientSize = new System.Drawing.Size(269, 220);
             this.Controls.Add(this.ChangePath5Btn);
             this.Controls.Add(this.Btn5);
             this.Controls.Add(this.RenameBtn5);
@@ -260,7 +260,8 @@
             this.Controls.Add(this.HideInTrayButton);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Eclipse Quick Launch";
+            this.Text = "Quick Launcher";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dipose_Icon);
             this.ResumeLayout(false);
 
         }

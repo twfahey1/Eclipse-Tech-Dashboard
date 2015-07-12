@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Eclipse_Tech_Dashboard.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="eclipse_6_help" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\Advantage Software\Eclipse\eclipse.chm</Value>
+    </Setting>
+    <Setting Name="eclipse_7_help" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\Advantage Software\Eclipse\eclipse.chm</Value>
+    </Setting>
+    <Setting Name="megalist_path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="goldmine_path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="eclipse_6_path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="eclipse_7_path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn1Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn2Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn3Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn4Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+    <Setting Name="Btn5Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not set</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

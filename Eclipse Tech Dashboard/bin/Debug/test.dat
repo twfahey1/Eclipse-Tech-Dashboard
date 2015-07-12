@@ -1,0 +1,164 @@
+15-07-12 00:57:24 -----------------------------------------------------
+15-07-12 00:57:24 START ECLIPSE
+15-07-12 00:57:24 docs: C:\Users\Tyler\Documents
+15-07-12 00:57:24 desktop: C:\Users\Tyler\Desktop
+15-07-12 00:57:24 07/12/15 00:57:24
+15-07-12 00:57:24 Version: 6.0.0.15
+15-07-12 00:57:24 Key SN:0
+15-07-12 00:57:24 Parse command line
+15-07-12 00:57:24 Load profile settings
+15-07-12 00:57:24 Prepare document types
+15-07-12 00:57:24 Prepare main frame window
+15-07-12 00:57:24 Create server connection
+15-07-12 00:57:24 Opening UDP connection
+15-07-12 00:57:24 UDP socket created
+15-07-12 00:57:24 Opening UDP endpoint
+15-07-12 00:57:24 Opening UDP socket 55156560
+15-07-12 00:57:24 Setting UDP reuse
+15-07-12 00:57:24 Binding UDP socket
+15-07-12 00:57:24 Joining UDP multicast group
+15-07-12 00:57:24 Starting UDP receive
+15-07-12 00:57:24 UDP connection opened
+15-07-12 00:57:24 Open server connection
+15-07-12 00:57:24 Server connection opened
+15-07-12 00:57:24 Deleting SSL socket
+15-07-12 00:57:24 SSL socket deleted
+15-07-12 00:57:26 timer created at 00:57:26:07
+15-07-12 00:57:26 Enable drag/drop
+15-07-12 00:57:26 Enable open command
+15-07-12 00:57:26 Register document types
+15-07-12 00:57:26 Load splash screen
+15-07-12 00:57:26 Set window procedure
+15-07-12 00:57:26 Show main window
+15-07-12 00:57:26 Load user
+15-07-12 00:57:26 User loaded.
+15-07-12 00:57:26 Load main dictionary
+15-07-12 00:57:26 Load spelling dictionaries
+15-07-12 00:57:26 Verifying: /C=US/ST=Florida/L=Stuart/O=Advantage Software, Inc./CN=connect.eclipsecat.com
+15-07-12 00:57:27 timer canceled at 00:57:27:03
+15-07-12 00:57:27 SRV:Connected
+15-07-12 00:57:27 Doing license operation: license_check
+15-07-12 00:57:27 License msg queued
+15-07-12 00:57:27 Doing license operation: license_execute
+15-07-12 00:57:27 License msg queued
+15-07-12 00:57:27 Shell command: 4,
+15-07-12 00:57:27 Set up display
+15-07-12 00:57:27 Check log file
+15-07-12 00:57:27 Doing license operation: license_execute
+15-07-12 00:57:27 License msg queued
+15-07-12 00:57:27 End setup
+15-07-12 00:58:54 User closed main window
+15-07-12 00:58:54 terminate license
+15-07-12 00:58:54 Doing license operation: license_terminate
+15-07-12 00:58:54 License msg queued
+15-07-12 00:58:54 save main dictionary
+15-07-12 00:58:54 close main dictionary
+15-07-12 00:58:54 save user settings
+15-07-12 00:58:54 close audio system
+15-07-12 00:58:54 close windows
+15-07-12 00:58:54 save toolbars
+15-07-12 00:58:54 close status bar
+15-07-12 00:58:54 save window state
+15-07-12 00:58:54 Main window closing
+15-07-12 00:58:54 close utility windows
+15-07-12 00:58:54 close server connection
+15-07-12 00:58:54 Socket thread quitting
+15-07-12 00:58:54 Deleting SSL socket
+15-07-12 00:58:54 SSL socket deleted
+15-07-12 00:58:54 Network communication terminated
+15-07-12 00:58:54 removing main message queue
+15-07-12 00:58:54 removing background message queue
+15-07-12 00:58:54 deleting message queues
+15-07-12 00:58:54 main/send deleted
+15-07-12 00:58:54 main/receive deleted
+15-07-12 00:58:54 back/receive deleted
+15-07-12 00:58:54 back/send deleted
+15-07-12 00:58:54 Deleting SSL socket
+15-07-12 00:58:54 SSL socket deleted
+15-07-12 00:58:54 finshed main destructor
+15-07-12 00:58:56 -----------------------------------------------------
+15-07-12 00:58:56 START ECLIPSE
+15-07-12 00:58:56 docs: C:\Users\Tyler\Documents
+15-07-12 00:58:56 desktop: C:\Users\Tyler\Desktop
+15-07-12 00:58:56 07/12/15 00:58:56
+15-07-12 00:58:56 Version: 6.0.0.15
+15-07-12 00:58:56 Key SN:0
+15-07-12 00:58:56 Parse command line
+15-07-12 00:58:56 Load profile settings
+15-07-12 00:58:56 Prepare document types
+15-07-12 00:58:56 Prepare main frame window
+15-07-12 00:58:56 Create server connection
+15-07-12 00:58:56 Opening UDP connection
+15-07-12 00:58:56 UDP socket created
+15-07-12 00:58:56 Opening UDP endpoint
+15-07-12 00:58:56 Opening UDP socket 55746384
+15-07-12 00:58:56 Setting UDP reuse
+15-07-12 00:58:56 Binding UDP socket
+15-07-12 00:58:56 Joining UDP multicast group
+15-07-12 00:58:56 Starting UDP receive
+15-07-12 00:58:56 UDP connection opened
+15-07-12 00:58:56 Open server connection
+15-07-12 00:58:56 Server connection opened
+15-07-12 00:58:56 Deleting SSL socket
+15-07-12 00:58:56 SSL socket deleted
+15-07-12 00:58:57 timer created at 00:58:57:13
+15-07-12 00:58:57 Enable drag/drop
+15-07-12 00:58:57 Enable open command
+15-07-12 00:58:57 Register document types
+15-07-12 00:58:57 Load splash screen
+15-07-12 00:58:57 Set window procedure
+15-07-12 00:58:57 Show main window
+15-07-12 00:58:57 Load user
+15-07-12 00:58:58 Verifying: /C=US/ST=Florida/L=Stuart/O=Advantage Software, Inc./CN=connect.eclipsecat.com
+15-07-12 00:58:58 User loaded.
+15-07-12 00:58:58 Load main dictionary
+15-07-12 00:58:58 Load spelling dictionaries
+15-07-12 00:58:58 timer canceled at 00:58:58:09
+15-07-12 00:58:58 SRV:Connected
+15-07-12 00:58:58 Doing license operation: license_check
+15-07-12 00:58:58 License msg queued
+15-07-12 00:58:59 Doing license operation: license_execute
+15-07-12 00:58:59 License msg queued
+15-07-12 00:58:59 Shell command: 4,
+15-07-12 00:58:59 Set up display
+15-07-12 00:58:59 Check log file
+15-07-12 00:58:59 Doing license operation: license_execute
+15-07-12 00:58:59 License msg queued
+15-07-12 00:58:59 End setup
+15-07-12 03:53:23 Doing license operation: license_terminate
+15-07-12 03:53:23 License msg queued
+15-07-12 03:55:02 Doing license operation: license_execute
+15-07-12 03:55:02 License msg queued
+15-07-12 04:00:08 Doing license operation: license_terminate
+15-07-12 04:00:08 License msg queued
+15-07-12 10:49:29 Doing license operation: license_execute
+15-07-12 10:49:29 License msg queued
+15-07-12 10:50:34 User closed main window
+15-07-12 10:50:34 terminate license
+15-07-12 10:50:34 Doing license operation: license_terminate
+15-07-12 10:50:34 License msg queued
+15-07-12 10:50:34 save main dictionary
+15-07-12 10:50:34 close main dictionary
+15-07-12 10:50:34 save user settings
+15-07-12 10:50:34 close audio system
+15-07-12 10:50:34 close windows
+15-07-12 10:50:34 save toolbars
+15-07-12 10:50:34 close status bar
+15-07-12 10:50:34 save window state
+15-07-12 10:50:34 Main window closing
+15-07-12 10:50:34 close utility windows
+15-07-12 10:50:34 close server connection
+15-07-12 10:50:34 Socket thread quitting
+15-07-12 10:50:34 Deleting SSL socket
+15-07-12 10:50:34 SSL socket deleted
+15-07-12 10:50:34 Network communication terminated
+15-07-12 10:50:34 removing main message queue
+15-07-12 10:50:34 removing background message queue
+15-07-12 10:50:34 deleting message queues
+15-07-12 10:50:34 main/send deleted
+15-07-12 10:50:34 main/receive deleted
+15-07-12 10:50:34 back/receive deleted
+15-07-12 10:50:34 back/send deleted
+15-07-12 10:50:34 Deleting SSL socket
+15-07-12 10:50:34 SSL socket deleted
+15-07-12 10:50:34 finshed main destructor

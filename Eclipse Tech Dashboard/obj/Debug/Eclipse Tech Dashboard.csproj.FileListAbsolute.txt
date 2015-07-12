@@ -1,0 +1,10 @@
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\bin\Debug\Eclipse Tech Dashboard.exe.config
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\bin\Debug\Eclipse Tech Dashboard.exe
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\bin\Debug\Eclipse Tech Dashboard.pdb
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\obj\Debug\Eclipse Tech Dashboard.csprojResolveAssemblyReference.cache
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\obj\Debug\Eclipse_Tech_Dashboard.Form1.resources
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\obj\Debug\Eclipse_Tech_Dashboard.Properties.Resources.resources
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\obj\Debug\Eclipse Tech Dashboard.csproj.GenerateResource.Cache
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\obj\Debug\Eclipse Tech Dashboard.exe
+c:\users\tyler\documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\obj\Debug\Eclipse Tech Dashboard.pdb
+C:\Users\Tyler\Documents\CM Project Launcher\Eclipse Tech Dashboard\Eclipse Tech Dashboard\obj\Debug\Eclipse_Tech_Dashboard.ChangeNameForm.resources

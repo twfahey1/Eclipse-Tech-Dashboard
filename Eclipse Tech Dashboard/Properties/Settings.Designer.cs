@@ -214,5 +214,125 @@ namespace Eclipse_Tech_Dashboard.Properties {
                 this["Btn5Path"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn6 {
+            get {
+                return ((string)(this["Btn6"]));
+            }
+            set {
+                this["Btn6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn6Path {
+            get {
+                return ((string)(this["Btn6Path"]));
+            }
+            set {
+                this["Btn6Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn7 {
+            get {
+                return ((string)(this["Btn7"]));
+            }
+            set {
+                this["Btn7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn7Path {
+            get {
+                return ((string)(this["Btn7Path"]));
+            }
+            set {
+                this["Btn7Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn8 {
+            get {
+                return ((string)(this["Btn8"]));
+            }
+            set {
+                this["Btn8"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn8Path {
+            get {
+                return ((string)(this["Btn8Path"]));
+            }
+            set {
+                this["Btn8Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn9 {
+            get {
+                return ((string)(this["Btn9"]));
+            }
+            set {
+                this["Btn9"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn9Path {
+            get {
+                return ((string)(this["Btn9Path"]));
+            }
+            set {
+                this["Btn9Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn10 {
+            get {
+                return ((string)(this["Btn10"]));
+            }
+            set {
+                this["Btn10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Btn10Path {
+            get {
+                return ((string)(this["Btn10Path"]));
+            }
+            set {
+                this["Btn10Path"] = value;
+            }
+        }
     }
 }

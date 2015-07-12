@@ -25,6 +25,16 @@ namespace Eclipse_Tech_Dashboard
         string Btn4Label;
         string Btn5Path;
         string Btn5Label;
+        string Btn6Path;
+        string Btn6Label;
+        string Btn7Path;
+        string Btn7Label;
+        string Btn8Path;
+        string Btn8Label;
+        string Btn9Path;
+        string Btn9Label;
+        string Btn10Path;
+        string Btn10Label;
 
         private ContextMenu trayMenu;
         private NotifyIcon trayIcon;
@@ -53,6 +63,21 @@ namespace Eclipse_Tech_Dashboard
             Btn5Path = Properties.Settings.Default["Btn5Path"].ToString();
             Btn5Label = Properties.Settings.Default["Btn5"].ToString();
             Btn5.Text = Btn5Label;
+            Btn6Path = Properties.Settings.Default["Btn6Path"].ToString();
+            Btn6Label = Properties.Settings.Default["Btn6"].ToString();
+            Btn6.Text = Btn6Label;
+            Btn7Path = Properties.Settings.Default["Btn7Path"].ToString();
+            Btn7Label = Properties.Settings.Default["Btn7"].ToString();
+            Btn7.Text = Btn7Label;
+            Btn8Path = Properties.Settings.Default["Btn8Path"].ToString();
+            Btn8Label = Properties.Settings.Default["Btn8"].ToString();
+            Btn8.Text = Btn8Label;
+            Btn9Path = Properties.Settings.Default["Btn9Path"].ToString();
+            Btn9Label = Properties.Settings.Default["Btn9"].ToString();
+            Btn9.Text = Btn9Label;
+            Btn10Path = Properties.Settings.Default["Btn10Path"].ToString();
+            Btn10Label = Properties.Settings.Default["Btn10"].ToString();
+            Btn10.Text = Btn10Label;
         }
 
         private void RebuildTaskbarMenu()
@@ -72,6 +97,11 @@ namespace Eclipse_Tech_Dashboard
             trayMenu.MenuItems.Add(Btn3.Text, Btn3_Click);
             trayMenu.MenuItems.Add(Btn4.Text, Btn4_Click);
             trayMenu.MenuItems.Add(Btn5.Text, Btn5_Click);
+            trayMenu.MenuItems.Add(Btn6.Text, Btn6_Click);
+            trayMenu.MenuItems.Add(Btn7.Text, Btn7_Click);
+            trayMenu.MenuItems.Add(Btn8.Text, Btn8_Click);
+            trayMenu.MenuItems.Add(Btn9.Text, Btn9_Click);
+            trayMenu.MenuItems.Add(Btn10.Text, Btn10_Click);
 
             trayMenu.MenuItems.Add("-");
             trayMenu.MenuItems.Add("Show App", ShowApp);
@@ -237,9 +267,92 @@ namespace Eclipse_Tech_Dashboard
 
         private void Dipose_Icon(object sender, FormClosingEventArgs e)
         {
-            trayIcon.Visible = false;
-            trayIcon.Dispose();
-            trayMenu.Dispose();
+            try
+            {
+
+                trayIcon.Visible = false;
+                trayIcon.Dispose();
+                trayMenu.Dispose();
+            }
+            catch (Exception disposeError)
+            {
+                Console.WriteLine("Icon disposed");
+            }
+        }
+
+        private void RenameBtn6_Click(object sender, EventArgs e)
+        {
+            RenameButton(Btn6);
+        }
+
+        private void RenameBtn7_Click(object sender, EventArgs e)
+        {
+            RenameButton(Btn7);
+        }
+
+        private void RenameBtn8_Click(object sender, EventArgs e)
+        {
+            RenameButton(Btn8);
+        }
+
+        private void RenameBtn9_Click(object sender, EventArgs e)
+        {
+            RenameButton(Btn9);
+        }
+
+        private void RenameBtn10_Click(object sender, EventArgs e)
+        {
+            RenameButton(Btn10);
+        }
+
+        private void Btn6_Click(object sender, EventArgs e)
+        {
+            StartFile(Btn6Path);
+        }
+
+        private void Btn7_Click(object sender, EventArgs e)
+        {
+            StartFile(Btn7Path);
+        }
+
+        private void Btn8_Click(object sender, EventArgs e)
+        {
+            StartFile(Btn8Path);
+        }
+
+        private void Btn9_Click(object sender, EventArgs e)
+        {
+            StartFile(Btn9Path);
+        }
+
+        private void Btn10_Click(object sender, EventArgs e)
+        {
+            StartFile(Btn10Path);
+        }
+
+        private void ChangePath6Btn_Click(object sender, EventArgs e)
+        {
+            ChangePath(Btn6, Btn6Path);
+        }
+
+        private void ChangePath7Btn_Click(object sender, EventArgs e)
+        {
+            ChangePath(Btn7, Btn7Path);
+        }
+
+        private void ChangePath8Btn_Click(object sender, EventArgs e)
+        {
+            ChangePath(Btn8, Btn8Path);
+        }
+
+        private void ChangePath9Btn_Click(object sender, EventArgs e)
+        {
+            ChangePath(Btn9, Btn9Path);
+        }
+
+        private void ChangePath10Btn_Click(object sender, EventArgs e)
+        {
+            ChangePath(Btn10, Btn10Path);
         }
 
     }

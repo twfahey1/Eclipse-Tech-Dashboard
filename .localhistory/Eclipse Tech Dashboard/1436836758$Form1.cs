@@ -105,7 +105,7 @@ namespace Eclipse_Tech_Dashboard
 
             foreach (MenuItem item in trayMenu.MenuItems)
             {
-                if (item != null && item.Text == "")
+                if (item.Name == "")
                 {
                     item.Dispose();
                 }

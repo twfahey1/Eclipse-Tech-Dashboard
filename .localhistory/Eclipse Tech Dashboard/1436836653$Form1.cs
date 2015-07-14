@@ -103,13 +103,6 @@ namespace Eclipse_Tech_Dashboard
             trayMenu.MenuItems.Add(Btn9.Text, Btn9_Click);
             trayMenu.MenuItems.Add(Btn10.Text, Btn10_Click);
 
-            foreach (MenuItem item in trayMenu.MenuItems)
-            {
-                if (item != null && item.Text == "")
-                {
-                    item.Dispose();
-                }
-            }
             trayMenu.MenuItems.Add("-");
             trayMenu.MenuItems.Add("Show App", ShowApp);
             trayMenu.MenuItems.Add("Exit", exitBtn_Click);
@@ -360,11 +353,6 @@ namespace Eclipse_Tech_Dashboard
         private void ChangePath10Btn_Click(object sender, EventArgs e)
         {
             ChangePath(Btn10, Btn10Path);
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
     }

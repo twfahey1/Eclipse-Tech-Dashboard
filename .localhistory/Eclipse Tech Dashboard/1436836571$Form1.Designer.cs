@@ -129,6 +129,7 @@
             this.Btn1.Text = "Set Label";
             this.Btn1.UseVisualStyleBackColor = true;
             this.Btn1.Click += new System.EventHandler(this.Btn1_Click);
+            this.Btn1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Move_Btn);
             // 
             // ChangePath2Btn
             // 
@@ -442,7 +443,6 @@
             this.Name = "Form1";
             this.Text = "Quick Launcher";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dipose_Icon);
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

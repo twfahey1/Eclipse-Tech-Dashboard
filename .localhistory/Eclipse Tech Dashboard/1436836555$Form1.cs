@@ -15,16 +15,11 @@ namespace Eclipse_Tech_Dashboard
 {
     public partial class Form1 : Form
     {
-        string Btn1Path;
-        string Btn1Label;
-        string Btn2Path;
-        string Btn2Label;
-        string Btn3Path;
-        string Btn3Label;
-        string Btn4Path;
-        string Btn4Label;
-        string Btn5Path;
-        string Btn5Label;
+        string Btn1Path, Btn1Label;
+        string Btn2Path, Btn2Label;
+        string Btn3Path, Btn3Label;
+        string Btn4Path, Btn4Label;
+        string Btn5Path, Btn5Label;
         string Btn6Path;
         string Btn6Label;
         string Btn7Path;
@@ -39,8 +34,11 @@ namespace Eclipse_Tech_Dashboard
         private ContextMenu trayMenu;
         private NotifyIcon trayIcon;
 
+
         public Form1()
         {
+            /*These methods setup the buttons labels and paths from the preferences, then build the
+             * taskbar icon with the shortcuts in place */
             InitializeComponent();
             InitializeButtons();
             RebuildTaskbarMenu();
@@ -80,8 +78,16 @@ namespace Eclipse_Tech_Dashboard
             Btn10.Text = Btn10Label;
         }
 
+        private void FilterAddMenuItem()
+        {
+            if (Text != "")
+            {
+                trayMenu.MenuItems.Add(Text);
+            }
+        }
         private void RebuildTaskbarMenu()
         {
+            trayMenu = new ContextMenu();
             /*This first checks if we have a tray icon already so we can toggle it off */
             if (trayIcon != null)
             {
@@ -91,7 +97,6 @@ namespace Eclipse_Tech_Dashboard
             }
 
             /*Set up and build tray menu */
-            trayMenu = new ContextMenu();
             trayMenu.MenuItems.Add(Btn1.Text, Btn1_Click);
             trayMenu.MenuItems.Add(Btn2.Text, Btn2_Click);
             trayMenu.MenuItems.Add(Btn3.Text, Btn3_Click);
@@ -105,11 +110,12 @@ namespace Eclipse_Tech_Dashboard
 
             foreach (MenuItem item in trayMenu.MenuItems)
             {
-                if (item != null && item.Text == "")
+                if (item.Text == "")
                 {
                     item.Dispose();
                 }
             }
+
             trayMenu.MenuItems.Add("-");
             trayMenu.MenuItems.Add("Show App", ShowApp);
             trayMenu.MenuItems.Add("Exit", exitBtn_Click);
@@ -196,9 +202,9 @@ namespace Eclipse_Tech_Dashboard
 
         private void RenameBtn1_Click(object sender, EventArgs e)
         {
-
+            
             RenameButton(Btn1);
-
+        
         }
 
         private void ChangePath1Btn_Click(object sender, EventArgs e)
@@ -270,21 +276,6 @@ namespace Eclipse_Tech_Dashboard
         private void Btn5_Click(object sender, EventArgs e)
         {
             StartFile(Btn5Path);
-        }
-
-        private void Dipose_Icon(object sender, FormClosingEventArgs e)
-        {
-            try
-            {
-
-                trayIcon.Visible = false;
-                trayIcon.Dispose();
-                trayMenu.Dispose();
-            }
-            catch (Exception disposeError)
-            {
-                Console.WriteLine("Icon disposed");
-            }
         }
 
         private void RenameBtn6_Click(object sender, EventArgs e)
@@ -362,11 +353,53 @@ namespace Eclipse_Tech_Dashboard
             ChangePath(Btn10, Btn10Path);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Move_Btn(object sender, MouseEventArgs e)
         {
+            
+
+        }
+
+
+        private void Dipose_Icon(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+
+                trayIcon.Visible = false;
+                trayIcon.Dispose();
+                trayMenu.Dispose();
+            }
+            catch (Exception disposeError)
+            {
+                Console.WriteLine("Icon disposed");
+            }
+        }
+
+    }
+
+    public class LauncherButton
+    {
+        public int width, height, posX, posY;
+        public string LaunchPath, BtnLabel, id;
+
+        public LauncherButton(string id, int width, int height, int posX, int posY)
+        {
+
+            this.width = width;
+            this.height = height;
+            this.posX = posX;
+            this.posY = posY;
+            this.id = id;
+
+            Button btn = new Button();
+            btn.Name = id;
+            btn.Width = width;
+            btn.Height = height;
+            Point btnPoint = new Point(posX, posY);
+            btn.Location = btnPoint;
+
 
         }
 
     }
 }
-
